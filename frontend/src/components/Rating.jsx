@@ -8,7 +8,7 @@ export default function Rating(props) {
       <span>{props.rating>=3?<FaStar/>: props.rating>=2.5?<FaStarHalfAlt/>:<FaRegStar/>}</span>
       <span>{props.rating>=4?<FaStar/>: props.rating>=3.5?<FaStarHalfAlt/>:<FaRegStar/>}</span>
       <span>{props.rating>=5?<FaStar/>: props.rating>=4.5?<FaStarHalfAlt/>:<FaRegStar/>}</span>
-      <span className='rating-text'>{props.rating} reviews</span>
+      <span className='rating-text'>{props.text} reviews</span>
     </div>
   )
 }

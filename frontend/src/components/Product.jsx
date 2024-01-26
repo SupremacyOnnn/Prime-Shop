@@ -17,7 +17,7 @@ export default function Product(props) {
             </Link>
 
             <Card.Text as='h3'>
-                Rs.{props.product.price}
+                $ {props.product.price}
             </Card.Text>
             <Rating rating = {props.product.rating} text={props.product.numReviews}></Rating>
         </Card.Body>

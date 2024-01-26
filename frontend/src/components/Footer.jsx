@@ -8,7 +8,7 @@ export default function Footer() {
         <Container>
             <Row>
                 <Col>
-                    <p>ProShop &copy; {currYear}</p>
+                    <p>Prime Shop by Shubham Kumar Chowdhury &copy; {currYear}</p>
                 </Col>
             </Row>
         </Container>
